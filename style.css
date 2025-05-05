@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background:linear-gradient(to top,
+    rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%),url(images/cover.jpg) ;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    width: 95%;
+    height: 75px;
+    padding: 7px 0px;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    font-size: 45px;
+    float: left;
+    padding-left: 60px;
+    color: orangered;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 10px 100px;
+}
+ul li{
+    font-size: 25px;
+    padding: 5px 20px;
+    margin: 0px 35px;
+    font-weight: 600;
+}
+ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: orangered;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 650px;
+    margin-top: 10px;
+}
+.srch{
+    width: 256px;
+    height: 30px;
+    background: transparent;
+    border: 2px solid orangered;
+}
+.btn{
+    background-color: orangered;
+    height: 33px;
+    width: 70px;
+    cursor: pointer;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    display: flex;
+    width: 90%;
+    height: 70%;
+    margin: 90px 10px;
+}
+.content-left{
+    width: 40%;
+    height: 50%;
+    margin: 50px 150px;
+}
+.content-left h2{
+    font-size: 50px;
+    color: white;
+    margin-top: 20px;
+}
+.content-left h1{
+    font-size: 65px;
+    color: orangered;
+    margin-top: 20px;
+}
+.content-left p{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+.btn2{
+   background-color: orangered;
+   width: 150px;
+   height: 35px;
+   margin-top: 20px;
+   border-radius: 20px 0px;
+   cursor: pointer;
+   transition: 0.4s ease-in-out;
+   font-weight: 700;
+}
+.btn2:focus{
+    outline: none;
+}
+.btn2:hover{
+    background-color: white;
+}
+.content-right{
+    width: 280px;
+    height: 450px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.8) 50%);
+    position: absolute;
+    left: 1150px;
+    border-radius: 10px;
+    margin: 10px 100px;
+    padding: 25px;
+}
+.content-right h2{
+    width: 220px;
+    text-align: center;
+    font-size: 25px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px 24px;
+    padding: 8px;
+}
+.content-right input{
+    width: 270px;
+    height: 39px;
+    background: transparent;
+    border-bottom: 1px solid orangered;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+.content-right input :focus{
+    outline: none;
+}
+.content-right button{
+    width: 250px;
+    height: 40px;
+    background-color: orangered;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 36px 10px 0px 14px;
+
+}
+.content-right button a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.content-right .link{
+    color: white;
+    font-size: 20px;
+    padding-top: 40px;
+    text-align: center;
+}
+.content-right .link a{
+    text-decoration: none;
+    color: orangered;
+}
+.content-right .liw{
+    color: white;
+    font-size: 20px;
+    padding-top: 38px;
+    padding-bottom: 10px;
+    text-align: center;
+}
