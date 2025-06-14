@@ -17,12 +17,12 @@
     padding: 7px 0px;
 }
 .icon{
-    width: 200px;
+    width: 150px;
     float: left;
     height: 70px;
 }
 .logo{
-    font-size: 45px;
+    font-size: 40px;
     float: left;
     padding-left: 60px;
     color: orangered;
@@ -42,7 +42,7 @@ ul{
 }
 ul li{
     font-size: 25px;
-    padding: 5px 20px;
+    padding: 5px 15px;
     margin: 0px 35px;
     font-weight: 600;
 }
@@ -57,7 +57,7 @@ ul li a:hover{
 .search{
     width: 330px;
     float: left;
-    margin-left: 650px;
+    margin-left: 564px;
     margin-top: 10px;
 }
 .srch{
@@ -126,7 +126,7 @@ ul li a:hover{
     height: 450px;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.8) 50%);
     position: absolute;
-    left: 1150px;
+    left: 1000px;
     border-radius: 10px;
     margin: 10px 100px;
     padding: 25px;
